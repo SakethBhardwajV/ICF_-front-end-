@@ -1,0 +1,157 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+    color: #1E1E1E;
+}
+
+/* ------------------Nav Bar------------------------ */
+
+.container {
+    background-color: #FFFFFF;
+    height: 114px;
+    width: auto;
+    padding: 0 50px;
+    border-bottom: 1px solid #1E1E1E;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.flex-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex-two {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 100px;
+}
+
+.flex-two a {
+    color: #1E1E1E;   ;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* ------------------Home Page------------------------ */
+.home {
+    padding: 100px 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-box {
+    height: auto;
+    width: 610px;
+    padding: 50px;
+}
+
+.title-box h1 {
+    font-size: 48px;
+    font-weight: 800px;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    margin: 3rem 0;
+}
+
+.partner-box {
+    display: flex;
+    align-items: center;
+    gap: 75px;
+}
+
+.footer {
+    color: #FFFFFF;
+    background-color: #1E1E1E;
+    height: 72px;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.footer-flex-container {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.footer p{
+    margin-top: 1rem;
+}
+
+.footer-logo {
+    fill: #FFFFFF !important;
+    opacity: 0.25;
+    transition: all 200ms;
+
+}
+
+.footer-logo:hover {
+    opacity: 1;
+}
+
+
+/* ------------------Contact Us Page------------------------ */
+.contact {
+    height: 52rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-container {
+    text-align: center;
+    height: 300px;
+    width: 600px;
+}
+
+.cont-container h1 {
+    font-size: 48px;
+    font-weight: 800px;
+    margin-bottom: 2rem;
+}
+
+.contact-flex-container {
+    display: flex;
+    justify-content: center;
+    gap: 5rem; 
+}
+
+.icon-box {
+    background-color: #1E1E1E;
+    padding: 2rem;
+    border-radius: 16px;
+    transition: all 200ms;
+}
+
+#fb:hover {
+    background-color: #4267B2;
+}
+
+#insta:hover {
+    background-color: #fccc63;
+}
+
+#mail:hover {
+    background-color: #ffce00;
+}
+
+.contact .icon-box:hover {
+    background-color: #FFFFFF;
+}
+
+
+
